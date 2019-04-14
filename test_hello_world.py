@@ -16,5 +16,5 @@ class TestHelloWorld(unittest.TestCase):
         message = hello_world.wrap_html('Welcome to CI/CD 101 using CircleCI!')
         self.assertEqual(response.data, message)
 
-if __name__ == '__main__':
+if __name__ == '__main__': 
     unittest.main()
